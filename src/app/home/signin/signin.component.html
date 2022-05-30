@@ -1,0 +1,29 @@
+<div class="card">
+    <div class="card-header">
+      Sign in please
+    </div>
+    <div class="card-body">
+
+      <form  #signInform ="ngForm"   (ngSubmit)="signIn(signInform)" >
+        <div class="form-group row">
+            <label for="inputPassword" class="col-sm-3 col-form-label">Email Id</label>
+            <div class="col-sm-9">
+              <input type="email"  ngModel  #email ="ngModel" name="email"  class="form-control" id="inputPassword" placeholder="Enter email id">
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label for="inputPassword" class="col-sm-3 col-form-label">Password</label>
+            <div class="col-sm-9">
+              <input type="password" ngModel name="password"  #password="ngModel" class="form-control" id="inputPassword" placeholder="Enter password">
+            </div>
+          </div>
+
+       <p class="card-text"> Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+    </p>
+      <button  type="submit" class="btn btn-primary"  >sign in</button>
+<div style="color: red;">{{passwordError}}</div>
+    </form>
+    </div>
+  </div>
+  

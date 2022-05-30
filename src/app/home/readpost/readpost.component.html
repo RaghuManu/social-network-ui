@@ -1,0 +1,16 @@
+
+<div class="card" style="width: 18rem;" *ngFor="let obj of readPostArr">
+    <img class="card-img-top" [src]="obj.loc_img" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">{{obj.loc_name}}</h5>
+      <p class="card-text">{{obj.loc_desc}}</p>
+      <div class="poster"> By {{obj.email}}</div>
+      
+        <div>
+            <span class="like"><img src="../../../assets/like.svg" (click)="addvote(true,obj.post_id)" alt="" width="20px">{{obj.likeCount}} </span>
+            <span class="dis-like"><img src="../../../assets/disLike.svg"  (click)="addvote(false,obj.post_id)" alt="" width="20px">{{obj.dislikeCount}}</span>
+        </div>
+    </div>
+  </div>
+
+  

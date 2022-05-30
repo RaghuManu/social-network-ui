@@ -1,0 +1,23 @@
+.card{
+    color: black;
+    width: 60%;
+    margin-left: 94px;
+    margin-top: 10px;
+    background-color: #EDEDED;
+}
+
+.user-name{
+    font-size: 20px;
+    font-weight: bold;
+}
+.user-bio{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.heading{
+    margin-left: 94px;
+     color: #636368;
+     font-size: 22px;
+     font-weight: bold;
+}

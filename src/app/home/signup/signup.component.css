@@ -1,0 +1,15 @@
+.card{
+    color: black;
+    width: 60%;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.center{
+    text-align: center;
+}
+
+.upload-image{
+    margin-top: 70px;
+    margin-left: 85px;
+}

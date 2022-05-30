@@ -1,0 +1,28 @@
+.header{
+    color: #FFFFFF;
+    display: inline-block;
+    background-color: #F31C5E;
+    width: 100%;
+    font-size: 18px;
+}
+
+.menu{
+   list-style-type: none;
+   float: right;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-right: 60px;
+   padding-left: 60px;
+   cursor: pointer;
+   outline: none;
+}
+
+
+.left{
+    float: left;;
+}
+
+.post-btn{
+
+    cursor: pointer;
+}

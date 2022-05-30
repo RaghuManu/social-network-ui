@@ -1,0 +1,28 @@
+.card{
+    color: black;
+    margin-top: 10px;
+    float: right;
+    margin-bottom: 70px;
+    width: 300px;
+    margin-left: 5%;
+    overflow: auto;
+   
+}
+
+.like{
+    cursor: pointer;
+}
+
+.dis-like{
+    float: right;
+    cursor: pointer;
+}
+
+.poster{
+    text-align: right;
+    border-bottom: 1px solid black;
+    border-width: 1px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: bold;
+}

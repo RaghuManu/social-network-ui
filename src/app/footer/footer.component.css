@@ -1,0 +1,22 @@
+.menu-left{
+list-style-type: none;
+float: left;
+padding: 20px;
+}
+.menu-right{
+
+    padding: 20px;
+    list-style-type: none;
+    float: right;
+}
+
+.footer{
+
+    color: #FFFFFF;
+    display: inline-block;
+    background-color: #F31C5E;
+    width: 100%;
+    font-size: 18px;
+    position: fixed;
+    bottom: 0px;
+}
